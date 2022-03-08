@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 700px;
+    background-image: linear-gradient(red, yellow, blue);
+}
+h1, h2{
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+#seconds, #tens {
+    font-size: 3em;
+}
+button {
+    color: black;
+    background-color: #ff50eb;
+    padding: 10px;
+}
+button:hover {
+    background-color: #ff57aa;
+    padding: 1rem;
+    border-radius: 10px 5px;
+    border: 1px solid red;
+}
